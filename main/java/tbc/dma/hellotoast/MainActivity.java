@@ -39,6 +39,6 @@ public class MainActivity extends AppCompatActivity {
     public void countUp() {
         mCount++;
         if (mShowCount != null)
-            mShowCount.setText(Integer.toString(mCount));
+            mShowCount.setText(String.valueOf(mCount));
     }
 }
